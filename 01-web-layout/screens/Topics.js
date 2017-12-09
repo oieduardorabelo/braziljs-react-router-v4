@@ -5,8 +5,11 @@ import { Link, Switch, Route } from "react-router-dom";
 export function Topics(props) {
   //
   // O `props.match.url` abaixo, é a rota definida em `Miolo.js`,
-  // our seja, podemos substituir pela string "/topics/" que irá
-  // funcionar do mesmo jeito!
+  // no componente pai `<Route path="/topics" component={Topics} />`
+  // sendo igual a prop `path`, ou seja, `props.match.url === "/topics"`
+  //
+  // podemos substituir pela string "/topics/" que irá
+  // funcionar do mesmo jeito, veja os dois primeiros links
   //
   return (
     <React.Fragment>
