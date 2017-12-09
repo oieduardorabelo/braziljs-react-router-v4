@@ -2,7 +2,6 @@
   "name": "01-web-layout",
   "version": "0.0.1",
   "description": "Exemplo 01 para o artigo no BrazilJS",
-  "main": "app.js",
   "private": true,
   "scripts": {
     "start": "NODE_ENV=development parcel index.html",
@@ -12,11 +11,11 @@
   "license": "MIT",
   "devDependencies": {
     "babel-preset-react-app": "3.1.0",
-    "parcel-bundler": "1.1.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "parcel-bundler": "1.1.0"
   },
   "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
     "react-router-dom": "4.2.2"
   }
 }
